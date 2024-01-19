@@ -113,4 +113,7 @@ body {
 
 #lemonMessage {
   /* Add styling for the message if needed */
+  background-color: #3b4fff;
+  color: #ffeb3b;
+  font-weight: 500;
 }
