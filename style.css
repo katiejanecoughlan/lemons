@@ -1,5 +1,5 @@
 /* -----Container------ */
-.callout-container-main {
+#home-container {
   height: 100vh;
 
   background: url("https://images.pexels.com/photos/7263018/pexels-photo-7263018.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat bottom right fixed;
@@ -73,11 +73,23 @@
 
 /* ------Footer ----- */
 
-/* ----Footer----- */
-
 #footer-details {
   text-align: center;
   padding-top: 15px;
   padding-bottom: 5px;
   font-weight: 500;
+}
+
+/* -----Lemon Page---- */
+
+/* ----Lemon container----- */
+#lemon-container {
+  background-color: #fafafa;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
 }
