@@ -5,10 +5,10 @@ function whichLemon() {
 
   const lemonOptions =
     [
-      "Sorrento Lemon",
-      "Citron",
-      "Tesco Finest Lemon",
-      "Lime"
+      "Sorrento Lemon! god's favourite lemon",
+      "Citron! oh la la hup Fronce",
+      "Tesco Finest Lemon! Now available in the €3.50 meal deal as 1 of your 5 a day",
+      "Lime! not e-sure"
     ];
 
   const randomLemonInt = Math.floor(Math.random() * lemonOptions.length);
@@ -27,10 +27,10 @@ document.body.style.backgroundImage = `url('${getImageForLemon(chosenLemon)}')`;
 function getImageForLemon(lemon) {
 // Map each lemon to its corresponding image
 const lemonImages = {
-    "Sorrento Lemon": "/assets/images/sorrento.jpg",
-    "Citron": "/assets/images/citron.png",
-    "Tesco Finest Lemon": "/assets/images/tesco-lemon.png",
-    "Lime": "https://images.pexels.com/photos/2363347/pexels-photo-2363347.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    "Sorrento Lemon! god's favourite lemon": "/assets/images/sorrento.jpg",
+    "Citron! oh la la hup Fronce": "/assets/images/citron.png",
+    "Tesco Finest Lemon! Now available in the €3.50 meal deal as 1 of your 5 a day": "/assets/images/tesco-lemon.png",
+    "Lime! not e-sure": "https://images.pexels.com/photos/2363347/pexels-photo-2363347.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 };
 
 // Return the image URL for the given lemon
