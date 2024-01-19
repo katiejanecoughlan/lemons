@@ -70,3 +70,14 @@
   -webkit-filter: saturate(0.2) opacity(0.5);
   cursor: not-allowed;
 }
+
+/* ------Footer ----- */
+
+/* ----Footer----- */
+
+#footer-details {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  font-weight: 500;
+}
