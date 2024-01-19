@@ -34,6 +34,6 @@ const lemonImages = {
 };
 
 // Return the image URL for the given lemon
-return lemonImages[lemon] || "default-image.jpg";
+return lemonImages[lemon] || "https://images.pexels.com/photos/6208084/pexels-photo-6208084.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
 }
 
