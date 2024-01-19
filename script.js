@@ -1,7 +1,7 @@
 function whichLemon() {
     //   console.log("testing")
       
-      constlemonOptions = 
+      const lemonOptions = 
       [
           "Sorrento Lemon",
           "Citron", 
@@ -9,11 +9,11 @@ function whichLemon() {
           "Lime"
           ];
           
-             const randomLemonlInt = Math.floor(Math.random() * lemonOptions.length);
+             const randomLemonInt = Math.floor(Math.random() * lemonOptions.length);
             const chosenLemon = lemonOptions[randomLemonInt];
           
                  
-    const message = `Enjoy your ${chosenLemon}!`;
+    const message = `You are a ${chosenLemon}!`;
     console.log(message)
     }
     
