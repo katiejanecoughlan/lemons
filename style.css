@@ -86,7 +86,8 @@
 
 #lemon-button {
   width: 20%;
-  text-transform: lowercase;
+  text-transform: capitalize;
+  font-size: small;
 }
 
 /* ----Lemon container----- */
