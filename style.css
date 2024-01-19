@@ -82,8 +82,12 @@
 
 /* -----Lemon Page---- */
 
+#lemon-button {
+  width: 20%;
+}
+
 /* ----Lemon container----- */
-#lemon-container {
+/* #lemon-container {
   background-color: #fafafa;
   height: 100vh;
 
@@ -92,4 +96,23 @@
   justify-content: center;
 
   position: relative;
+} */
+
+/* body {
+  background-size: cover; /* Ensures the background image covers the entire container */
+  background-repeat: no-repeat; /* Prevents the background image from repeating */
+  background-position: center; /* Centers the background image within the container */
+  min-height: 100vh; /* Ensures the background covers the full viewport height */
+} */
+
+#output {
+  max-width: 320px; /* Adjust the maximum width as needed */
+  margin: 0 auto; /* Centers the output container horizontally */
+  padding: 20px; /* Adds some spacing around the output container */
+  background-color: rgba(255, 255, 255, 0.8); /* Adds a semi-transparent white background */
+  background-repeat: no-repeat;
+}
+
+#lemonMessage {
+  /* Add styling for the message if needed */
 }
