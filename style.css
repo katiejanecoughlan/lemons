@@ -1,46 +1,72 @@
 /* -----Container------ */
 .callout-container-main {
-    height: 100vh;
-  
-    background: url("https://images.pexels.com/photos/7263018/pexels-photo-7263018.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat bottom right fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: 60%;
-  
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  
-    position: relative;
-  }
+  height: 100vh;
 
-  #find-out {
-    font-weight: 600;
-    background-color: #ffeb3b;
-    color: #3b4fff;
-    text-transform:uppercase;
-  }
-  
-  /* p.learn-more.a:hover {
-    text-decoration: none;
-  } */
-/*   
-  p.find-out:hover {
-    width: 130px;
-    height: 130px;
-    padding-top: 28%;
-    border-radius: 50%;
-    font-size: 25px;
-    line-height: 25px;
-    text-align: center;
-    color: #fafafa;
-    background: #ff0015;
-    line-height: 30px;
-    transition: 0.5s ease-in-out;
-    /* transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out; */
-  } */
+  background: url("https://images.pexels.com/photos/7263018/pexels-photo-7263018.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat bottom right fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 60%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+#find-out {
+  font-weight: 600;
+  background-color: #ffeb3b;
+  color: #3b4fff;
+  text-transform: uppercase;
+}
+
+#find-out:hover {
+  width: 130px;
+  height: 130px;
+  padding-top: 28%;
+  border-radius: 50%;
+  font-size: 25px;
+  line-height: 25px;
+  text-align: center;
+  color: #3b4fff;
+  background: #ffeb3b;
+  line-height: 30px;
+}
+
+/* ----Button---- */
+
+.button-32 {
+  background-color: #fff000;
+  border-radius: 12px;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px 15px;
+  text-align: center;
+  transition: 200ms;
+  text-transform: uppercase;
+  text-decoration: none;
+  width: 45%;
+  box-sizing: border-box;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-32:not(:disabled):hover,
+.button-32:not(:disabled):focus {
+  outline: 0;
+  background: #f4e603;
+  box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+}
+
+.button-32:disabled {
+  filter: saturate(0.2) opacity(0.5);
+  -webkit-filter: saturate(0.2) opacity(0.5);
+  cursor: not-allowed;
+}
