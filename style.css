@@ -107,7 +107,8 @@ body {
   background-repeat: no-repeat; /* Prevents the background image from repeating */
   background-position: center; /* Centers the background image within the container */
   min-height: 100vh; /* Ensures the background covers the full viewport height */
-  background-color: #3b4fff;
+  background: url("https://images.pexels.com/photos/7179797/pexels-photo-7179797.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-position: 40%;
 }
 
 #output {
